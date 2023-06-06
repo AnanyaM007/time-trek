@@ -52,7 +52,7 @@ const Stopwatch = () => {
 
   return (
     <ChakraProvider>
-      <Box p={4} bg="gray.100" borderRadius="md">
+      <Box pl={{base:1, md:4}} pr={{base:1, md:4}} pt={7} pb={7} bg="gray.100" borderRadius="md" >
         <Center>
           <VStack spacing={4} align="center">
             <Heading as="h1" size="xl" color="teal.500">
